@@ -6,7 +6,7 @@ module.exports = secret => (req, res, next) => {
     message: 'No token provided.',
   });
 
-    // check header or url parameters or post parameters for token
+  // check header or url parameters or post parameters for token
   if (req.headers.authorization === undefined || req.headers.authorization.split(' ').length !== 2) {
     return res.status(403).send(getFailureMessage());
   }
@@ -20,6 +20,7 @@ module.exports = secret => (req, res, next) => {
       req.decoded = decoded;
       return next();
     });
+  } else {
+    return res.status(403).send(getFailureMessage());
   }
-  return res.status(403).send(getFailureMessage());
 };
