@@ -1,12 +1,12 @@
 {
-  "name": "login.dfe.api.auth",
+  "name": "AuthBox.ApiAuth",
   "version": "1.0.0",
   "description": "",
   "main": "src/index.js",
   "dependencies": {
     "jsonwebtoken": "^8.0.1",
     "passport": "^0.4.0",
-    "passport-azure-ad": "^3.0.12",
+    "passport-azure-ad": "^4.1.0",
     "proxyquire": "^1.8.0"
   },
   "devDependencies": {
@@ -14,20 +14,20 @@
     "eslint-config-airbnb-base": "^11.3.1",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jest": "^21.3.2",
-    "jest": "^21.2.1",
-    "jest-cli": "^21.2.1"
+    "jest": "^25.0.0",
+    "jest-cli": "^25.0.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DFE-Digital/login.dfe.api.auth.git"
+    "url": "git+https://github.com/hampton-io/AuthBox.ApiAuth.git"
   },
-  "author": "DfE",
+  "author": "AuthBox.io",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/DFE-Digital/login.dfe.api.auth/issues"
+    "url": "https://github.com/hampton-io/AuthBox.ApiAuth/issues"
   },
-  "homepage": "https://github.com/DFE-Digital/login.dfe.api.auth#readme"
+  "homepage": "https://github.com/hampton-io/AuthBox.ApiAuth#readme"
 }
