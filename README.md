@@ -1,9 +1,6 @@
-[![Build Status](https://travis-ci.org/DFE-Digital/login.dfe.api.auth.svg?branch=master)](https://travis-ci.org/DFE-Digital/login.dfe.api.auth)
-
-
 [![tested with jest](https://img.shields.io/badge/tested_with-jest-99424f.svg)](https://github.com/facebook/jest)
 
-# login.dfe.api.auth
+# AuthBox.ApiAuth
 
 Package to provide auth strategy for API projects
 
@@ -34,15 +31,10 @@ And for AzureActiveDirectory
     }
 }
 ```
-
-An example of this is available on [GitHub](https://github.com/DFE-Digital/login.dfe.hot-config/blob/master/config/login.dfe.hot-config.dev.json)
-
 ### Usage
 ```
-const auth = require('login.dfe.api.auth')
+const auth = require('authbox.apiauth')
 .
 .
-.
-
 app.use(auth(app, config));
 ```
