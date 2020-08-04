@@ -1,6 +1,6 @@
 {
   "name": "authbox.apiauth",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Api Authentication strategies use by AuthBox",
   "main": "src/index.js",
   "dependencies": {
@@ -10,12 +10,12 @@
     "proxyquire": "^1.8.0"
   },
   "devDependencies": {
-    "eslint": "^4.18.2",
-    "eslint-config-airbnb-base": "^11.3.1",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jest": "^21.3.2",
-    "jest": "^25.0.0",
-    "jest-cli": "^25.0.0"
+    "eslint": "^7.6.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "jest": "^26.2.2",
+    "jest-cli": "^26.2.2"
   },
   "scripts": {
     "test": "./node_modules/.bin/jest"
